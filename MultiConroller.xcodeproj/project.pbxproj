@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		5318C5E8288FB60D00795239 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5318C5E7288FB60D00795239 /* AppDelegate.swift */; };
 		5318C5EA288FB60D00795239 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5318C5E9288FB60D00795239 /* SceneDelegate.swift */; };
-		5318C5EC288FB60D00795239 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5318C5EB288FB60D00795239 /* ViewController.swift */; };
 		5318C5EF288FB60D00795239 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5318C5ED288FB60D00795239 /* Main.storyboard */; };
 		5318C5F1288FB61000795239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5318C5F0288FB61000795239 /* Assets.xcassets */; };
 		5318C5F4288FB61000795239 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5318C5F2288FB61000795239 /* LaunchScreen.storyboard */; };
+		5318C5FC288FB68200795239 /* firstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5318C5FB288FB68200795239 /* firstPageViewController.swift */; };
+		5318C5FE288FB69300795239 /* secondPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5318C5FD288FB69300795239 /* secondPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5318C5E4288FB60D00795239 /* MultiConroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiConroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5318C5E7288FB60D00795239 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5318C5E9288FB60D00795239 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5318C5EB288FB60D00795239 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5318C5EE288FB60D00795239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5318C5F0288FB61000795239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5318C5F3288FB61000795239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5318C5F5288FB61000795239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5318C5FB288FB68200795239 /* firstPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstPageViewController.swift; sourceTree = "<group>"; };
+		5318C5FD288FB69300795239 /* secondPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				5318C5E7288FB60D00795239 /* AppDelegate.swift */,
 				5318C5E9288FB60D00795239 /* SceneDelegate.swift */,
-				5318C5EB288FB60D00795239 /* ViewController.swift */,
 				5318C5ED288FB60D00795239 /* Main.storyboard */,
+				5318C5FB288FB68200795239 /* firstPageViewController.swift */,
+				5318C5FD288FB69300795239 /* secondPageViewController.swift */,
 				5318C5F0288FB61000795239 /* Assets.xcassets */,
 				5318C5F2288FB61000795239 /* LaunchScreen.storyboard */,
 				5318C5F5288FB61000795239 /* Info.plist */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5318C5EC288FB60D00795239 /* ViewController.swift in Sources */,
 				5318C5E8288FB60D00795239 /* AppDelegate.swift in Sources */,
+				5318C5FE288FB69300795239 /* secondPageViewController.swift in Sources */,
 				5318C5EA288FB60D00795239 /* SceneDelegate.swift in Sources */,
+				5318C5FC288FB68200795239 /* firstPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
